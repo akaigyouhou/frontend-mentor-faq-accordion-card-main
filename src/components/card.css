@@ -1,0 +1,91 @@
+.card {
+    background-color: white;
+    padding-top: 107px;
+    padding-left: 25px;
+    padding-right: 23px;
+    padding-bottom: 33px;
+    border-radius: 23px;
+    position: relative;
+    box-shadow: 0 30px 30px -20px var(--Very-dark-grayish-blue);
+}
+
+.title {
+    text-align: center;
+}
+
+.card .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .illu {
+    position: absolute;
+    height: 180px;
+    top: -109px;
+    left: calc(50% - 237px/ 2);
+}
+.card .shadow {
+    width: 100%;
+    height: 100%;
+    background-image: url("./bg-pattern-mobile.svg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+    .card {
+        display: flex;
+        /* width: 960px; */
+        /* justify-content: center; */
+        align-items: center;
+        margin: 0;
+        /* margin-top: 128px; */
+        margin-left: 280px;
+        margin-right: 240px;
+        margin-bottom: 128px;
+        padding: 0;
+        /* padding-right: 30px; */
+        /* margin-left: 280px; */
+        /* margin-right: 280px; */
+    }
+    .card .container {
+        position: inherit;
+        width: 50%;
+        height: 510px;
+
+    }
+    .card .shadow {
+        /* background-image: url("./bg-pattern-desktop.svg"), url("./illustration-woman-online-desktop.svg");
+        background-position: -576px -295px, -83px 72px;
+        background-repeat: no-repeat, no-repeat; */
+        /* background-image: ; */
+        /* background-repeat: no-repeat; */
+        /* background-position: ; */
+        background-image: url("./illustration-woman-online-desktop.svg"), url("./bg-pattern-desktop.svg");
+        background-position: -83px 72px, -576px -295px;
+        background-repeat: no-repeat, no-repeat;
+    }
+    .card .box {
+        position: absolute;
+        top: 204px;
+        left: -94px;
+    }
+
+    .context {
+        width: 460px;
+        padding-left: 16px;
+        padding-right: 109px;
+        padding-bottom: 22px;
+    }
+
+    .context h1 {
+        text-align: left;
+    }
+
+}
