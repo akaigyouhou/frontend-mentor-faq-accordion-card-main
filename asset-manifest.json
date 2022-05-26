@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.c5490a93.css",
-    "main.js": "./static/js/main.6699d67b.js",
+    "main.js": "./static/js/main.804a4328.js",
     "static/media/KumbhSans-Bold.ttf": "./static/media/KumbhSans-Bold.4026f7b98708245e3b30.ttf",
     "static/media/KumbhSans-Regular.ttf": "./static/media/KumbhSans-Regular.f0b817a565ee7c8fbadb.ttf",
     "static/media/illustration-woman-online-mobile.svg": "./static/media/illustration-woman-online-mobile.fe928f9c476ef6d332672b3ab38268fd.svg",
@@ -12,10 +12,10 @@
     "static/media/bg-pattern-mobile.svg": "./static/media/bg-pattern-mobile.55aee9128a769eedabec.svg",
     "static/media/icon-arrow-down.svg": "./static/media/icon-arrow-down.852fa301a0e795e07c5966b1c156025f.svg",
     "main.c5490a93.css.map": "./static/css/main.c5490a93.css.map",
-    "main.6699d67b.js.map": "./static/js/main.6699d67b.js.map"
+    "main.804a4328.js.map": "./static/js/main.804a4328.js.map"
   },
   "entrypoints": [
     "static/css/main.c5490a93.css",
-    "static/js/main.6699d67b.js"
+    "static/js/main.804a4328.js"
   ]
 }
